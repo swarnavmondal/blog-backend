@@ -1,0 +1,35 @@
+### Variables
+@server = http://localhost:9000
+
+### --------starting of item- create, view and update.-----------
+### Create
+POST {{server}}/blog
+Content-Type: application/json
+
+{
+   "title": "TExtBook",
+   "content":"By Hitler"
+}
+
+### All View
+GET {{server}}/blog
+Content-Type: application/json
+
+###Sigle View
+
+GET {{server}}/blog/60c7a46e104bec3b948b21c2
+Content-Type: application/json
+
+### Single Update
+PATCH {{server}}/blog/60c77329417bba09708484b0
+Content-Type: application/json
+
+{  
+   "content":"88"
+}
+
+### Article Delete
+DELETE {{server}}/blog/60c77329417bba09708484b0
+Content-Type: application/json
+
+### -----End here----

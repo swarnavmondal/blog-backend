@@ -1,0 +1,48 @@
+npm init -y
+
+npm i express
+npm i helmet
+npm i mongoose
+npm i mongoose-unique-validator
+npm i slugify
+
+package.json
+"type": "module"
+https://flaviocopes.com/how-to-enable-es-modules-nodejs/
+
+package.json
+"scripts": {
+  "start": "nodemon server.js"
+},
+npm start
+
+https://medium.com/@mmajdanski/express-body-parser-and-why-may-not-need-it-335803cd048c
+
+https://cloud.mongodb.com/
+arnab47stars@gmail.com
+Gateway@2018
+
+Organization
+Web Prism IT Solution
+
+Project
+Demo
+
+Database accesss Username and Password
+arnabmunshi
+GEId9YBqCexWmymB
+
+Clusters
+nodejs
+
+Database
+blog_db
+
+res.send vs res.json
+https://www.tutorialspoint.com/difference-between-res-send-and-res-json-in-express-js
+
+PUT vs PATCH
+https://rapidapi.com/blog/put-vs-patch/
+
+HTTP status code
+https://www.restapitutorial.com/httpstatuscodes.html
